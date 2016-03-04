@@ -11,6 +11,7 @@ RUN npm install electron-builder -g
 
 # Install GOX
 RUN go get github.com/mitchellh/gox
+RUN go get github.com/aktau/github-release
 
 # Install AWS CLI
 RUN pip install awscli
